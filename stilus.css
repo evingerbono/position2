@@ -1,0 +1,57 @@
+*{
+    position: static;
+}
+header,article,aside,nav,footer{
+    border: 1px solid gray;
+    
+}
+header{
+    background-color: rgb(169, 248, 51);
+    font-size: 24px;
+    text-align: center;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+}
+body{
+    background-color: rgb(196, 195, 195);
+}
+article{
+    position: fixed;
+    background-color: white;
+    left: calc(50% - 100px);
+    right: calc(50% - 100px);
+}
+.gomb{
+    position: relative;
+    right: 0;
+
+}
+main{
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background-color: white;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(169, 248, 51);
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    width: 100%;
+}
+aside{
+    text-align: justify;
+}
+nav{
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
